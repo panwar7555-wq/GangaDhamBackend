@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const CreditDebit = require("../Models/CreditDebit");
-const User = require("../models/User");
+const User = require("../Models/User");
 
 // CREATE transaction and update user balance
 router.post("/", async (req, res) => {
