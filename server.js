@@ -2,8 +2,8 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config();
-const userRoutes = require("./Router/Userroute"); 
-const creditDebitRoutes = require("./Router/creditDebitRoutes");
+const userRoutes = require("./src/Router/Userroute"); 
+const creditDebitRoutes = require("./src/Router/creditDebitRoutes");
 
 const app = express();
 app.use(cors());
