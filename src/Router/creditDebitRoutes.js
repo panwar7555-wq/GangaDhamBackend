@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const CreditDebit = require("../models/CreditDebit");
+const CreditDebit = require("../Models/CreditDebit");
 const User = require("../models/User");
 
 // CREATE transaction and update user balance
